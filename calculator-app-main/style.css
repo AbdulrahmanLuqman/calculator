@@ -1,0 +1,111 @@
+body{
+    background-color: hsl(222, 26%, 31%);
+    font-family: League Spartan ;
+    font-weight: 700;  
+}
+.theme-color{
+    width: 40px;
+    height: 13px;
+    background-color: hsl(224, 19%, 24%);
+    border-radius: 2rem;
+    padding: 3px 10px;
+    margin-top: -17px;
+}
+.dot{
+    width: 9px;
+    height: 11px;
+    padding: 2px;
+    margin-left: -5px;
+    margin-top: -1.2px;
+    background-color:hsl(6, 100%, 50%);
+    border-radius: 50%;
+}
+.first-line{
+    color: white;
+}
+.first-line p{
+    display: inline;
+}
+#container{
+width: 300px;
+margin: 0 auto;
+}
+.ans-bg{
+    background-color: hsl(224, 36%, 15%);
+    width: 320px;
+    height: 90px;
+    border-radius: 8px;
+}
+.ans-bg p{
+     color: white;
+     font-size: 2rem;
+     direction: rtl;
+     padding-top: 1.2rem;
+     outline: none;
+}
+.keys-bg{
+    background-color:hsl(223, 31%, 20%);
+    width:320px;
+    height: 19rem;
+    margin-top: 1.2rem;
+    border-radius: 8px;
+} 
+.row1,.row2,.row3,.row4{
+    margin-left: 21px;
+    margin-top: 20px;
+}
+.row1 button,.row2 button,.row3 button,.row4 button{
+    margin-left: 15px;
+    padding: 7px 20px;
+    background-color: hsl(30, 25%, 89%);
+    border: none;
+    box-shadow: 0px 3px 2px  hsl(28, 16%, 65%);
+    border-radius: 5px;
+}
+.row1 .del,.row2 .del,.row3 .del,.row4 .del{
+    padding: 7px 11px;
+}
+.row5 .reset{
+    padding: 5px 40px;
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 3px 2px hsl(224, 28%, 35%);
+    border: none;
+    border-radius:5px ;
+    color: white;
+}
+.row5 .equals{
+    padding: 5px 52px;
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 3px 2px hsl(6, 70%, 34%);
+    border: none;
+    border-radius:5px ;
+    color: white;
+    margin-left: 12px;
+}
+.row5{
+    margin-left: 13px;
+    margin-top:20px ;
+}
+.row5 button{
+    margin-left: 22px;
+}
+.shift{
+    padding-top: 10px;
+}
+.row4 .ast{
+    padding: 7px 22px;
+}
+.row3 .minus{
+    padding: 7px 22px;
+}
+.theme{
+    padding-left: 10rem;
+    
+    
+}
+.move{
+    margin-left: 16rem;
+    margin-top: -14px;
+}
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 48%, 39%); } */
